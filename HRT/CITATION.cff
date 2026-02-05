@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "HRT"
+license: "MIT"
+authors:
+  - family-names: "Li"
+    given-names: "Hongyi"
+
+preferred-citation:
+  type: conference-paper
+  title: "Hinge Regression Tree: A Newton Method for Oblique Regression Tree Splitting"
+  authors:
+    - family-names: "Li"
+      given-names: "Hongyi"
+    - family-names: "Lin"
+      given-names: "Han"
+    - family-names: "Xu"
+      given-names: "Jun"
+  year: 2026
+  url: "https://openreview.net/forum?id=3pZwJB6SX9"
