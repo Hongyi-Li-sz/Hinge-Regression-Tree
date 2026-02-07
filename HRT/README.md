@@ -11,7 +11,7 @@
 
 **Hinge Regression Tree: A Newton Method for Oblique Regression Tree Splitting**  
 Hongyi Li, Han Lin, Jun Xu*  
-**ICLR 2026 (accepted)** — *camera-ready forthcoming*  
+**ICLR 2026 (accepted)** 
 OpenReview: https://openreview.net/forum?id=3pZwJB6SX9  
 
 
