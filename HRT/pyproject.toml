@@ -30,3 +30,8 @@ include = ["hrt*"]
 [tool.ruff]
 line-length = 100
 target-version = "py39"
+
+[project.urls]
+Homepage = "https://github.com/Hongyi-Li-sz/Hinge-Regression-Tree"
+Repository = "https://github.com/Hongyi-Li-sz/Hinge-Regression-Tree"
+Issues = "https://github.com/Hongyi-Li-sz/Hinge-Regression-Tree/issues"
