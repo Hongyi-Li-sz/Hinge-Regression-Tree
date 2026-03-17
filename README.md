@@ -55,9 +55,10 @@ python scripts/run_kin8nm.py --data kin8nm.data --seed 42 --reps 5 --pdf results
 
 ## Why HRT?
 
-- **Better splits without heuristics:** oblique split learning is NP-hard and often relies on slow search; HRT instead solves a **hinge (max/min) nonlinear least-squares** split subproblem.
-- **Stable optimization:** the node solver aligns with a **damped Newton / Gauss–Newton** view and supports **monotone descent** via backtracking.
-- **Expressive yet compact:** max/min hinges yield **ReLU-like** piecewise-linear models, and empirically HRT is competitive with strong single-tree baselines while often using **fewer leaves**.
+- **Better splits without heuristics:** oblique split learning is NP-hard and often relies on slow search; HRT instead solves a **nonlinear least-squares problem with hinge (max/min) functions**.
+- **Stable optimization:** the node solver aligns with a **damped Newton–Gauss–Newton perspective** and supports **monotone descent** via backtracking.
+- **Expressive yet compact:** max/min hinge functions yield **ReLU-like** piecewise-linear models, and empirically HRT is competitive with strong single-tree baselines while often using **fewer leaves**.
+- **Second-order optimization formulation:** parameter updates are computed via Newton steps rather than exhaustive search heuristics.
 
 
 
