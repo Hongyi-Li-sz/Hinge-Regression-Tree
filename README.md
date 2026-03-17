@@ -4,7 +4,7 @@
 ![ICLR 2026](https://img.shields.io/badge/ICLR%202026-Accepted-brightgreen)
 
 <img width="1250" height="381" alt="HRT_github drawio" src="https://github.com/user-attachments/assets/960330f3-685d-45f8-ae1a-e36ff83e5d68" />
-
+<br>
 
 
 **Official implementation** of **Hinge Regression Tree (HRT)** — an optimization-grounded **oblique, piecewise-linear tree** that learns each split by solving a **hinge (max/min) nonlinear least-squares** problem over two linear predictors, giving **ReLU-like expressivity** for **regression** and a **simple binary-classification extension** (fit on \{0,1\} targets; clip to [0,1] and threshold at 0.5).  
