@@ -27,6 +27,7 @@ Clone the official HRT-Boost repository:
 ```bash
 git clone https://github.com/Hongyi-Li-sz/Hinge-Regression-Tree.git
 cd Hinge-Regression-Tree
+cd HRT
 ```
 
 Core (HRT only):
