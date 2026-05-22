@@ -22,6 +22,13 @@ OpenReview: https://openreview.net/forum?id=3pZwJB6SX9
 
 ## Install
 
+Clone the official HRT-Boost repository:
+
+```bash
+git clone https://github.com/Hongyi-Li-sz/Hinge-Regression-Tree.git
+cd Hinge-Regression-Tree
+```
+
 Core (HRT only):
 
 ```bash
