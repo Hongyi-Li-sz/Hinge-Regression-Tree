@@ -47,6 +47,8 @@ Clone the official HRT repository:
 
 ```bash
 git clone https://github.com/Hongyi-Li-sz/Hinge-Regression-Tree.git
+```
+```bash
 cd Hinge-Regression-Tree/HRT
 ```
 
